@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -79,21 +79,23 @@ let allowNext = false;
 let currentStar = 5;
 let city = '0';
 
-let yalink = 'http://maps.yandex.ru';
-let googlelink = 'http://maps.google.ru';
-let gislink = 'http://2gis.ru';
+let yalink = 'https://yandex.ru/maps/org/105873463188';
+let googlelink = 'https://g.co/kgs/yRc3qfS';
+let gislink = 'https://2gis.ru/moscow/geo/70000001032579615';
 let avitolink = 'http://avito.ru';
 
 function updateLink(city) {
 	switch(city) {
 		  case '1':
-			document.getElementById('address').innerHTML = 'Адрес 1';
-			yalink = 'http://maps.yandex.ru';
+			document.getElementById('address').innerHTML = 'ул. Вокзальная, 2, Орехово-Зуево';
+			document.getElementById('address-name').innerHTML = 'Геодезия50';
+			yalink = 'https://yandex.ru/maps/org/geodeziya50/85492625457/reviews/?add-review=true&ll=38.976678%2C55.797154&source=serp_navig&z=16';
 			googlelink = 'http://maps.google.ru';
 			gislink = 'http://2gis.ru';
 			avitolink = 'http://avito.ru';
 			break;
 		  case '2':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 2';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -101,6 +103,7 @@ function updateLink(city) {
 			avitolink = 'http://avito.ru';
 			break;
 		  case '3':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 3';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -108,6 +111,7 @@ function updateLink(city) {
 			avitolink = 'http://avito.ru';
 			break;
 		  case '4':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 4';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -115,6 +119,7 @@ function updateLink(city) {
 			avitolink = 'http://avito.ru';
 			break;
 		  case '5':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 5';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -122,6 +127,7 @@ function updateLink(city) {
 			avitolink = 'http://avito.ru';
 			break;
 		  case '6':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 6';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -129,6 +135,7 @@ function updateLink(city) {
 			avitolink = 'http://avito.ru';
 			break;
 		  case '7':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 7';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -136,6 +143,7 @@ function updateLink(city) {
 			avitolink = 'http://avito.ru';
 			break;
 		  case '8':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 8';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -143,6 +151,7 @@ function updateLink(city) {
 			avitolink = 'http://avito.ru';
 			break;
 		  case '9':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 9';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -150,6 +159,7 @@ function updateLink(city) {
 			avitolink = 'http://avito.ru';
 			break;
 		  case '10':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 10';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -157,6 +167,7 @@ function updateLink(city) {
 			avitolink = 'http://avito.ru/';
 			break;
 		  case '11':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 11';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -164,6 +175,7 @@ function updateLink(city) {
 			avitolink = 'http://avito.ru/';
 			break;
 		  case '12':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 12';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -171,6 +183,7 @@ function updateLink(city) {
 			avitolink = 'http://avito.ru/';
 			break;
 		  case '13':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 13';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -178,6 +191,7 @@ function updateLink(city) {
 			avitolink = 'http://avito.ru/';
 			break;
 		  case '14':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 14';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -185,6 +199,7 @@ function updateLink(city) {
 			avitolink = 'http://avito.ru/';
 			break;
 		  case '15':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 15';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -192,6 +207,7 @@ function updateLink(city) {
 			avitolink = 'http://avito.ru/';
 			break;
 		  case '16':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 16';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -199,6 +215,7 @@ function updateLink(city) {
 			avitolink = 'http://avito.ru/';
 			break;
 		  case '17':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 17';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -206,6 +223,7 @@ function updateLink(city) {
 			avitolink = 'http://avito.ru/';
 			break;
 		  case '18':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 18';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -213,6 +231,7 @@ function updateLink(city) {
 			avitolink = 'http://avito.ru/';
 			break;
 		  case '19':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 19';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -220,6 +239,7 @@ function updateLink(city) {
 			avitolink = 'http://avito.ru/';
 			break;
 		  case '20':
+			document.getElementById('address-name').innerHTML = 'Название';
 			document.getElementById('address').innerHTML = 'Адрес 20';
 			yalink = 'http://maps.yandex.ru';
 			googlelink = 'http://maps.google.ru';
@@ -319,8 +339,8 @@ document.addEventListener("DOMContentLoaded", function(){
 <div id="wrapper">
 	<div id="header">
 		<div id="address-block" style="text-align:center">
-			<b>Доставка еды</b><br>
-			<span style="color:#8492a6" id="address">г. Москва, Арбат 18</span>
+			<b id="address-name">Единая служба геодезии и кадастра</b><br>
+			<span style="color:#8492a6" id="address">ул. Бабушкина, 2А, Орехово-Зуево</span>
 		</div>
 	</div>
 	<div id="main-block">
